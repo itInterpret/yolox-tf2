@@ -29,7 +29,12 @@
 - [x] SimOTA：为不同大小的目标动态匹配正样本。
 
 ## 所需环境
-tensorflow-gpu==2.2.0  
+tensorflow-gpu==2.2.0
+
+### 测试 20211225
+tensorflow-gpu==2.6.2
+tensorflow-gpu==2.7.0
+
 
 ## 小技巧的设置
 在train.py文件下：   
