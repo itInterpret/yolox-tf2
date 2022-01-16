@@ -234,7 +234,7 @@ if __name__ == "__main__":
                 callbacks           = [logging, checkpoint, reduce_lr, early_stopping, loss_history]
             )
 
-    if Freeze_Train:
+    if !Freeze_Train:
         for i in range(freeze_layers): model_body.layers[i].trainable = True
 
     if True:
